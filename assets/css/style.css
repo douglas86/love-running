@@ -36,6 +36,10 @@ div {
   margin-bottom: 20px;
 }
 
+.hidden-heading {
+  display: none;
+}
+
 /*Header*/
 header {
   background-color: #ffffff;
