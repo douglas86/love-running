@@ -32,10 +32,6 @@ hr {
   margin: 5px 0;
 }
 
-p {
-  padding: 0 20px;
-}
-
 div {
   margin-bottom: 20px;
 }
@@ -134,14 +130,37 @@ main {
   margin: auto 20px;
 }
 
-#reasons > h2 {
+#reasons h2 {
   font-size: 280%;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+#benefits p {
+  padding: 0 20px;
 }
 
 #benefits-physical div:first-child,
 #benefits-mental div:first-child {
   line-height: 20px;
+  margin-bottom: 20px;
+}
+
+/*Benefits image*/
+#circle-cover-bg {
+  width: 90vw;
+  height: 90vw;
+  margin-bottom: 20px;
+  background: url("../images/reasons-image.webp") no-repeat top center/cover;
+  border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#benefits-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*Footer*/
