@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-In order to **receive benefits** as a **role**, I can **goal/desire**
+As a **role** I can **capability** so that **received benefit**
